@@ -12,7 +12,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const { mode } = theme.palette;
   const {
     landings: landingPages,
-
+    secondary: secondaryPages,
     company: companyPages,
    
   } = pages;
